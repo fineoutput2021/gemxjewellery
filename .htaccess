@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/jewellery2/public/$1 [L,R=301]
+
+
+<FilesMatch ".(eot|otf|ttf|woff|woff2)">
+    Header always set Access-Control-Allow-Origin "*"
+</FilesMatch>
+<IfModule mod_rewrite.c>

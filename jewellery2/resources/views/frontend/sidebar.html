@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>slider bar jew</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<style type="text/css">
+
+
+/*mobile nav bar css end*/
+
+	/*	@font-face{font-family:melorraIcons;src:url(https://d25xjl7berdv27.cloudfront.net/melorra_fonts/fonts/melorraIcons.eot?der02o);src:url(https://d25xjl7berdv27.cloudfront.net/melorra_fonts/fonts/melorraIcons.eot?der02o#iefix) format('embedded-opentype'),url(https://d25xjl7berdv27.cloudfront.net/melorra_fonts/fonts/melorraIcons.ttf?der02o) format('truetype'),url(https://d25xjl7berdv27.cloudfront.net/melorra_fonts/fonts/melorraIcons.woff?der02o) format('woff'),url(https://d25xjl7berdv27.cloudfront.net/melorra_fonts/fonts/melorraIcons.svg?der02o#melorraIcons) format('svg');font-weight:400;font-style:normal;font-display:block;}
+		i{font-family:melorraIcons;speak:never;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.melorra-wishlist:before{content:"\e90a";}
+.melorra-bag:before{content:"\e90b";}
+.melorra-logo:before{content:"\e90c";}
+.melorra-call:before{content:"\e908";}
+.melorra-search:before{content:"\e909";
+padding-left: 13px;}*/
+/*navbar end*/
+
+.side_nav_mob{
+	width:15px;
+	cursor: pointer;
+}
+.brand_logo_mob{
+	width:150px;
+	position: absolute;
+    left: 30%;
+}
+.top_header_mob{
+	height: 43px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #dedede;
+}
+
+/*side nav bar start*/
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top:43px;
+  left: 0;
+  border-right: 1px solid grey;	
+  background: white; 
+  overflow-x: hidden;
+  transition: 0.5s;
+
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size:14px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.section_link a:hover {
+      color: #ff8900;
+}
+
+
+.sidenav .closebtn {
+      position: absolute;
+    top: -24px;
+    right: -2px;
+    font-size: 45px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/*side nav bar end*/
+
+.section_link a{
+	/*padding: 40px !important;*/
+	border-bottom: 1px solid grey;
+}
+
+.imginer{
+	width: 25px;
+	margin-right: 10px;
+}
+
+@media (min-width:1000px){
+	.navbar-brand{
+		width:4% !important;
+	}
+}
+.sidenav .closebtn:hover{
+	transform: rotate(360deg);
+}
+
+/*mobile nav bar  css end*/
+
+	</style>
+</head>
+<body>
+<!-- mobile nav bar start -->
+<header class="top_header_mob">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12">
+				<img onclick="openNav()" class="side_nav_mob" src="file:///C:/Users/pro/Downloads/menu.png">
+
+				<img class="brand_logo_mob" src="file://readyshare/USB_Storage/jewwllers%20%20paradies/img/Untitled-5.png">
+
+
+				<span class="float-right">
+				<i class="melorra-wishlist"></i>
+				<i class="melorra-bag"></i>
+				</span>
+			</div>
+		</div>
+
+	</div>
+</header>
+<section class="search_mob">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12">
+
+          <form style="margin-top: 23px;">
+      <input type="text" placeholder="Search Here.." name="search" style="
+
+    border-bottom:1px solid #9f9f9f;
+    border-top:1px solid #9f9f9f;
+    border-left: 1px solid #9f9f9f;
+    position: absolute;
+    padding-left: 19px;
+    width: 320px;
+    margin-top: -4px;
+    border-radius: 50px;">
+
+      <span  type="submit"><i class="melorra-search" aria-hidden="true" style="
+    position: absolute;
+    margin-left: 275px;
+    margin-top: -22px;
+    width: 57px;
+    height: 28px;
+    padding: 7px 0px 0 7px;
+    background: #4a0000 !important;
+    color: white;
+    border-radius: 0px 50px 50px 0px;
+    "></i></span>
+    </form>
+    </div>
+			</div>
+		</div>
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+<section >
+	<div class="user_img">
+                    		<!-- <img src="file:///C:/Users/pro/Downloads/portrait-beautiful-young-woman-earring-jewelry-acce-accessories-perfect-makeup-fashion-photo-42715699.jpg" style="width: 60px;height:60px;border-radius:50%;margin: 19px;"> -->
+                    	</div>
+	<a href="#" style="font-weight: 700;font-size:17px;color:darkred;border-bottom: 1px solid lightgrey">Piyush Chaurasia </a>
+</section>
+
+
+<section class="section_link">
+	<a href="#"></i> Home</a>
+	<a href="#">New Arrivals</a>
+	<a href="#">Fresh water pearl</a>
+	<a href="#">Gems & Beads</a>
+	<a href="#">Gems </a>
+	<a href="#">Find Shop</a>
+	<a href="#">Dealer Enquiry</a>
+	<a href="#">Sign in</a>
+	<a href="#">Sign Out</a>
+
+
+</section>
+</div>
+</section>
+
+<!-- mobile nav bar end -->
+</body>
+
+<!-- mobile nav script start -->
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "85%";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<!-- mobile nav bar script end -->
+</html>

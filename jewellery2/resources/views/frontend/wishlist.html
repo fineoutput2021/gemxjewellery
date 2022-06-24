@@ -1,0 +1,1860 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>wishlist</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- google font -->
+
+<link rel="stylesheet" type="text/css" href="css/newstyle.css">
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+   <!-- wishlistt css start -->
+   <style type="text/css">
+
+
+/*header css start*/
+
+		/*! CSS Used from: Embedded */
+*,*::before,*::after{box-sizing: border-box;}
+/*! CSS Used from: Embedded */
+
+/*navbar start*/
+/*! CSS Used from: https://www.melorra.com/static/css/App.min.css */
+
+a,p{font-family:'Gotham Book',Verdana,sans-serif;}
+/*! CSS Used from: https://www.melorra.com/static/css/common.css */
+/*::-webkit-input-placeholder{font-family:Gotham Book;letter-spacing:1px;font-size:15px;}*/
+/*! CSS Used from: https://d25xjl7berdv27.cloudfront.net/melorra_fonts/styles.min.css */
+i{font-family:melorraIcons;speak:never;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.melorra-wishlist:before{content:"\e90a";}
+.melorra-bag:before{content:"\e90b";}
+.melorra-logo:before{content:"\e90c";}
+.melorra-call:before{content:"\e908";}
+.melorra-search:before{content:"\e909";
+padding-left: 13px;}
+/*! CSS Used from: Embedded */
+
+/*! CSS Used from: Embedded */
+
+.jss220{   background-color: white !important;}
+
+/*! CSS Used from: Embedded */
+
+
+/*! CSS Used from: Embedded */
+.jss328{display:inline-flex;position:relative;vertical-align:middle;}
+.jss329{top:0;right:0;height:20px;display:flex;padding:0 4px;z-index:1;position:absolute;flex-wrap:wrap;font-size:0.75rem;min-width:20px;transform:scale(1) translate(50%, -50%);box-sizing:border-box;transition:transform 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;align-items:center;font-family:Gotham Book;font-weight:500;align-content:center;border-radius:10px;flex-direction:row;justify-content:center;transform-origin:100% 0%;}
+.jss330{color:#fff;background-color:#81d8d0;}
+/*! CSS Used from: Embedded */
+.jss316{display:inline-block;align-items:center;}
+.jss319{padding:12px 20px;}
+.jss319 i::before{color:#505050;}
+.jss320{font-size:21px;}
+.jss320 span{height:16px;min-width:16px;font-size:0.65rem;}
+.jss321{display:inline-block;}
+.jss321 i::before{color:#505050;}
+/*! CSS Used from: Embedded */
+
+
+
+/*! CSS Used fontfaces */
+/**/
+@font-face{font-family:melorraIcons;src:url(https://d25xjl7berdv27.cloudfront.net/melorra_fonts/fonts/melorraIcons.eot?der02o);src:url(https://d25xjl7berdv27.cloudfront.net/melorra_fonts/fonts/melorraIcons.eot?der02o#iefix) format('embedded-opentype'),url(https://d25xjl7berdv27.cloudfront.net/melorra_fonts/fonts/melorraIcons.ttf?der02o) format('truetype'),url(https://d25xjl7berdv27.cloudfront.net/melorra_fonts/fonts/melorraIcons.woff?der02o) format('woff'),url(https://d25xjl7berdv27.cloudfront.net/melorra_fonts/fonts/melorraIcons.svg?der02o#melorraIcons) format('svg');font-weight:400;font-style:normal;font-display:block;}
+/*navbar end*/
+
+
+
+
+
+/*! CSS Used from: Embedded */
+
+/*! CSS Used from: Embedded */
+.jss251{width:100%;display:flex;z-index:1100;box-sizing:border-box;flex-shrink:0;flex-direction:column;}
+.jss254{top:85px;left:auto;right:0;position:sticky;}
+.jss258{color:#fff;background-color:#FF6100;}
+/*! CSS Used from: Embedded */
+.jss260{display:flex;position:relative;align-items:center;}
+.jss263{min-height:48px;}
+/*! CSS Used from: Embedded */
+.jss353{margin:auto;padding:0px 13px;margin-right:0;padding-right:0;}
+.jss353 input::placeholder{color:#959595;font-size:12px;font-weight:400;letter-spacing:0;}
+/*! CSS Used from: Embedded */
+.jss346{color:black;cursor:pointer;margin:auto;font-size:13px;font-weight:600;line-height:13px;letter-spacing:0.75px;padding-bottom: 13px;}
+.jss346 a,.jss346 a:hover,.jss346 a:active{color:#fff;}
+.jss352{margin-right:-10px;}
+.jss352::after{top:-13px;left:-13%;color:yellow;content:"NEW";position:relative;font-size:7px;font-style:normal;font-weight:800;}
+/*! CSS Used from: Embedded */
+.jss342{height:50px;padding:0 37px;box-shadow:0 15px 30px 0 rgba(0,0,0,0.1);background-color:#fff;}
+.jss343{color:black;cursor:pointer;margin:auto;font-size:11px;font-weight:600;line-height:13px;letter-spacing:0.75px;}
+.jss343:hover{font-weight:bold;}
+.jss343 a,.jss343 a:hover,.jss343 a:active{color:#fff;}
+.jss344 :first-child{margin-left:0;padding-left:0;font-size:13px;font-weight:600;padding-bottom: 13px;}
+.jss345{margin-right:-10px;}
+.jss345::after{top:-13px;left:-13%;color:#81d8d0;content:"NEW";position:relative;font-size:7px;font-style:normal;font-weight:800;}
+/*! CSS Used fontfaces */
+@font-face{font-family:'Gotham Book';font-display:swap;src:url(https://d25xjl7berdv27.cloudfront.net/fonts/gotham/gotham-book-webfont.woff2) format('woff2');}
+@font-face{font-weight:300;font-family:"Gotham Book";font-display:swap;src:url(https://d25xjl7berdv27.cloudfront.net/fonts/gotham/Gotham-Light.woff2) format("woff2");}
+@font-face{font-weight:400;font-family:"Gotham Book";font-display:swap;src:url(https://d25xjl7berdv27.cloudfront.net/fonts/gotham/Gotham-Book.woff2) format("woff2");}
+@font-face{font-weight:500;font-family:"Gotham Book";font-display:swap;src:url(https://d25xjl7berdv27.cloudfront.net/fonts/gotham/Gotham-Medium.woff2) format("woff2");}
+@font-face{font-weight:600;font-family:"Gotham Book";font-display:swap;src:url(https://d25xjl7berdv27.cloudfront.net/fonts/gotham/Gotham-Bold.woff2) format("woff2");}
+
+
+.jss346:hover{
+  border-bottom:3px solid #81d8d0;
+  transition: 0.2s;
+}
+.css-1ibii9v{color:rgb(35, 21, 53);font-size:1.1rem;line-height:18px;padding:20px 14px;}
+
+body.fontLoaded .css-1ibii9v{font-family:MuliBold, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+@media screen and (min-width: 993px){
+.css-1ibii9v{display:none;}
+}
+.css-p7odfy{padding:0px 0px 10px 14px;}
+@media screen and (min-width: 993px){
+.css-p7odfy{padding:22px 0px 22px 24px;flex-basis:32%;}
+}
+@media screen and (min-width: 1280px){
+.css-p7odfy{padding-left:34px;}
+}
+@media screen and (min-width: 1440px){
+.css-p7odfy{padding:30px 0px 0px 26px;}
+}
+.css-1sdgq5d{margin:0px 0px 26px;position:relative;color:rgb(35, 21, 53);font-size:1.1rem;line-height:18px;height:18px;}
+.css-1sdgq5d::before{content:"";display:inline-block;width:92px;height:1px;background:linear-gradient(to right, rgb(222, 87, 229), rgb(136, 99, 251) 76%, rgb(255, 255, 255) 76%, rgb(255, 255, 255) 86%, rgb(136, 99, 251) 86%, rgb(136, 99, 251) 100%);position:absolute;bottom:-18px;left:-26px;}
+body.fontLoaded .css-1sdgq5d{font-family:MuliBold, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+@media screen and (max-width: 992px){
+.css-1sdgq5d{margin-bottom:14px;height:inherit;}
+.css-1sdgq5d::before{content:none;}
+}
+@media screen and (min-width: 993px){
+.css-1sdgq5d{font-size:0.9rem;}
+}
+@media screen and (min-width: 1024px){
+.css-1sdgq5d{font-size:1rem;}
+}
+@media screen and (min-width: 1280px){
+.css-1sdgq5d{font-size:1.1rem;}
+}
+.css-qnhxbx{margin:0px;padding:0px;list-style-type:none;display:flex;flex-flow:row wrap;-webkit-box-pack:start;justify-content:flex-start;-webkit-box-align:stretch;align-items:stretch;}
+.css-16uk4ka{margin:0px;padding:0px;flex:0 0 100%;}
+@media screen and (min-width: 600px){
+.css-16uk4ka{flex-basis:50%;}
+}
+@media screen and (min-width: 768px){
+.css-16uk4ka{flex-basis:25%;}
+}
+@media screen and (min-width: 993px){
+.css-16uk4ka{flex-basis:50%;}
+}
+.css-16ozcek{display:flex;text-decoration:none;-webkit-box-align:center;align-items:center;}
+.css-1xcg98c{margin:0px;padding:0px;height:60px;width:60px;}
+.css-vejw4d{max-width:100%;animation:0s ease 0s 1 normal none running none;margin:0px;padding:0px;width:100%;display:block;}
+.css-2rl2mb{margin:0px 0px 0px 14px;font-weight:normal;/*font-size:1.1rem;*/line-height:18px;color:rgb(51, 54, 62);font-size: revert;}
+.css-2rl2mb:hover {
+  color:black;
+      margin-left: 22px;
+
+      font-size: large;
+}
+
+body.fontLoaded .css-2rl2mb{font-family:MuliRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+/*@media screen and (min-width: 993px){
+.css-2rl2mb{font-size:0.9rem;}
+body.fontLoaded .ebw7e5r8:hover .css-2rl2mb{font-family:MuliBold, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+}
+@media screen and (min-width: 1024px){
+.css-2rl2mb{font-size:1rem;}
+}
+@media screen and (min-width: 1280px){
+.css-2rl2mb{font-size:1.1rem;}
+}*/
+.css-zeveam{margin:0px;padding:0px;outline:0px;cursor:pointer;font-family:muliregular;color:inherit;font-size:inherit;display:flex;text-decoration:none;-webkit-box-align:center;align-items:center;}
+@media (max-width: 992px){
+.css-zeveam{cursor:default;}
+}
+.css-pyqknh{padding:0px 0px 20px 14px;}
+@media screen and (min-width: 993px){
+.css-pyqknh{padding:22px 0px 22px 14px;flex-basis:14%;}
+}
+@media screen and (min-width: 1280px){
+.css-pyqknh{padding-left:24px;}
+}
+@media screen and (min-width: 1440px){
+.css-pyqknh{padding:30px 0px 0px 26px;}
+}
+.css-1p3rop4{margin:0px;padding:0px;list-style-type:none;display:flex;flex-flow:row wrap;-webkit-box-pack:start;justify-content:flex-start;-webkit-box-align:stretch;align-items:stretch;}
+@media screen and (min-width: 993px){
+.css-1p3rop4{-webkit-box-align:unset;align-items:unset;flex-wrap:wrap;display:block;}
+}
+.css-c8ebq3{margin:0px;padding:0px;flex:0 0 auto;}
+@media screen and (min-width: 600px){
+.css-c8ebq3{flex-basis:50%;}
+}
+@media screen and (min-width: 768px){
+.css-c8ebq3{flex-basis:25%;}
+}
+@media screen and (min-width: 993px){
+.css-c8ebq3{flex-basis:50%;}
+}
+@media screen and (max-width: 767px){
+.css-c8ebq3{flex:0 0 50%;}
+}
+.css-b035pn{display:flex;text-decoration:none;-webkit-box-align:center;align-items:center;padding:11px 0px;}
+.css-1x2ol1o{margin:0px;padding:0px;max-height:26px;max-width:26px;}
+.css-1uon2ej{margin:0px 0px 0px 14px;font-weight:normal;line-height:18px;color:rgb(51, 54, 62);font-size: medium;}
+.css-1uon2ej:hover {
+  color:black;
+      margin-left: 22px;
+     font-size: large;
+}
+body.fontLoaded .css-1uon2ej{font-family:MuliRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+/*@media screen and (min-width: 993px){
+.css-1uon2ej{font-size:0.9rem;}
+}
+@media screen and (min-width: 1024px){
+.css-1uon2ej{font-size:1rem;}
+}
+@media screen and (min-width: 1280px){
+.css-1uon2ej{font-size:1.1rem;}
+}*/
+@media screen and (min-width: 993px){
+body.fontLoaded .ercryrr2:hover .css-1uon2ej{font-family:MuliBold, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+}
+.css-17ide25{margin:0px;outline:0px;cursor:pointer;font-family:muliregular;color:inherit;font-size:inherit;display:flex;text-decoration:none;-webkit-box-align:center;align-items:center;padding:11px 0px;}
+@media (max-width: 992px){
+.css-17ide25{cursor:default;}
+}
+.css-167nw3u{margin:0px;flex:0 0 20%;}
+@media screen and (min-width: 993px){
+.css-167nw3u{display:flex;flex-flow:column;align-items:flex-start;flex:0 0 auto;}
+}
+.css-9xiphp{padding:0px 0px 14px 14px;}
+@media screen and (min-width: 993px){
+.css-9xiphp{padding:11px 0px 11px 18px;flex-basis:16%;}
+}
+@media screen and (min-width: 1280px){
+.css-9xiphp{padding-left:24px;}
+}
+@media screen and (min-width: 1440px){
+.css-9xiphp{padding:30px 0px 0px 26px;}
+}
+.css-1wqu3mc{margin:0px;padding:0px;list-style-type:none;}
+.css-1xasier{display:block;margin:0px;padding:0px;}
+.css-p1ri25{margin:0px 0px 0px 14px;font-weight:normal;font-size:medium;line-height:18px;padding:6px 0px;color:rgb(51, 54, 62);}
+.css-p1ri25:hover {
+  color:black;
+      margin-left: 22px;
+     font-size: large;
+}
+
+body.fontLoaded .css-p1ri25{font-family:MuliRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+/*@media screen and (min-width: 993px){
+.css-p1ri25{font-size:0.9rem;}
+}
+@media screen and (min-width: 1024px){
+.css-p1ri25{font-size:1rem;}
+}
+@media screen and (min-width: 1280px){
+.css-p1ri25{font-size:1.1rem;}
+}
+@media screen and (max-width: 992px){
+.css-p1ri25{margin:0px 0px 0px 14px;}
+}*/
+
+@media screen and (min-width: 993px){
+body.fontLoaded .e1iyta232:hover .css-p1ri25{font-family:MuliBold, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+}
+.css-1xcfp2u{margin:0px 0px 0px 14px;font-weight:normal;font-size:1.1rem;line-height:18px;padding:6px 0px;color:rgb(139, 99, 251);}
+body.fontLoaded .css-1xcfp2u{font-family:MuliRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+@media screen and (min-width: 993px){
+.css-1xcfp2u{font-size:0.9rem;}
+}
+@media screen and (min-width: 1024px){
+.css-1xcfp2u{font-size:1rem;}
+}
+@media screen and (min-width: 1280px){
+.css-1xcfp2u{font-size:1.1rem;}
+}
+@media screen and (max-width: 992px){
+.css-1xcfp2u{margin:0px 0px 0px 14px;}
+}
+@media screen and (min-width: 993px){
+body.fontLoaded .e1iyta232:hover .css-1xcfp2u{font-family:MuliBold, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+}
+.css-1ydlhvy{position:relative;width:100%;}
+@media screen and (min-width: 993px){
+.css-1ydlhvy{flex-basis:34%;margin:0px;padding-left:16px;border-top:none;max-width:318px;align-self:stretch;}
+}
+@media screen and (min-width: 1280px){
+.css-1ydlhvy{max-width:500px;padding-left:24px;}
+}
+.css-k4ar8c{display:flex;-webkit-box-align:center;align-items:center;}
+@media screen and (min-width: 993px){
+.css-k4ar8c{display:block;height:100%;}
+}
+.css-xqovar{max-width:100%;animation:0s ease 0s 1 normal none running none;margin:0px;padding:0px;width:auto;}
+@media screen and (min-width: 993px){
+.css-xqovar{width:100%;display:block;}
+}
+.css-1fy77to{position:absolute;left:24px;top:14px;}
+@media screen and (min-width: 993px){
+.css-1fy77to{top:30px;left:66px;}
+}
+.css-bm423n{margin:0px;padding:0px;color:rgb(222, 87, 229);font-weight:500;font-size:2rem;line-height:26px;}
+body.fontLoaded .css-bm423n{font-family:BegumMedium, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+@media screen and (min-width: 1280px){
+.css-bm423n{font-size:4rem;line-height:50px;}
+}
+.css-popdrg{position:relative;outline:none;cursor:pointer;user-select:none;-webkit-tap-highlight-color:transparent;box-sizing:border-box;font-family:inherit;margin:14px 0px 0px;padding:0px;display:block;background:transparent;border:1px solid rgb(222, 87, 229);border-radius:24px;width:132px;height:34px;font-size:1rem;text-align:center;color:rgb(222, 87, 229);}
+body.fontLoaded .css-popdrg{font-family:MuliRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+@media screen and (min-width: 993px){
+.css-popdrg{width:130px;height:32px;margin:28px 0px 0px;font-size:0.9rem;line-height:14px;}
+}
+@media screen and (min-width: 1024px){
+.css-popdrg{font-size:1rem;}
+}
+@media screen and (min-width: 1280px){
+.css-popdrg{font-size:1.1rem;line-height:18px;}
+}
+.css-gkqrda{box-shadow:rgba(200, 200, 200, 0.5) 0px 2px 4px 0px;background:rgb(255, 255, 255);display:flex;justify-content:space-around;-webkit-box-align:stretch;align-items:stretch;position:absolute;cursor:default;width:100%;top:72px;left:0px;right:0px;overflow:hidden;z-index:-1;transform:translateY(0px);}
+@media screen and (min-width: 993px){
+.css-gkqrda > div:last-child[type="FULL_SIZED_BANNER_BLOCK"]{margin-top:0px;padding:0px;}
+}
+@media screen and (max-width: 992px){
+.css-gkqrda{position:relative;width:100%;top:0px;transform:none;max-height:100%;flex-flow:column;flex:0 0 auto;animation:0s ease 0s 1 normal none running none;}
+}
+/*! CSS Used from: Embedded */
+*,::before,::after{background-repeat:no-repeat;box-sizing:border-box;}
+::before,::after{text-decoration:inherit;vertical-align:inherit;}
+nav ul{list-style:none;}
+strong{font-weight:inherit;}
+strong{font-weight:bolder;}
+::-moz-selection{background-color:#b3d4fc;color:#000000;text-shadow:none;}
+::selection{background-color:#b3d4fc;color:#000000;text-shadow:none;}
+/*  */
+img{border-style:none;}
+a{background-color:transparent;-webkit-text-decoration-skip:objects;}
+a:hover{outline-width:0;}
+button{background-color:transparent;border-style:none;color:inherit;font-size:1em;margin:0;}
+button{overflow:visible;}
+button{text-transform:none;}
+button{-webkit-appearance:button;}
+::-moz-focus-inner{border-style:none;padding:0;}
+:-moz-focusring{outline:1px dotted ButtonText;}
+::-webkit-input-placeholder{color:inherit;opacity:.54;}
+a,button{-ms-touch-action:manipulation;touch-action:manipulation;}
+/*! CSS Used fontfaces */
+@font-face{font-family:'MuliBold';src:url(https://assets.cltstatic.com/desktop/live/maatran/build/7b7626b3d92105bde067f0d537412fd1.woff2) format('woff2'),     url(https://assets.cltstatic.com/desktop/live/maatran/build/e6ce6f049b5adbda9d9f325a17d1104b.woff) format('woff'),     url(https://assets.cltstatic.com/desktop/live/maatran/build/b168035f557a338a053902f942645342.ttf) format('ttf');font-display:swap;}
+@font-face{font-family:'MuliRegular';src:url(https://assets.cltstatic.com/desktop/live/maatran/build/743500abdf420f6f22f4ae16d9328886.woff2) format('woff2'),     url(https://assets.cltstatic.com/desktop/live/maatran/build/087cb22996bfb0f35007679e3164d0b4.woff) format('woff'),     url(https://assets.cltstatic.com/desktop/live/maatran/build/25dc88e941ae1c1b088df20ffaa98948.ttf) format('ttf');font-display:swap;}
+@font-face{font-family:'BegumMedium';src:url(https://assets.cltstatic.com/desktop/live/maatran/build/623d8d94f78e9ea23fd58623850a21dc.woff2) format('woff2'),     url(https://assets.cltstatic.com/desktop/live/maatran/build/579a6f5a76111c97fa61e5f538629fb3.woff) format('woff'),     url(https://assets.cltstatic.com/desktop/live/maatran/build/53956f6968fb42360426be3cad4cea42.ttf) format('ttf');font-display:swap;}
+
+
+
+*{
+  box-sizing: border-box !important;
+}
+
+#show1{
+position: sticky;
+z-index:2000 !important;
+top:139px;
+display: none;
+}
+
+#clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+#clockdiv > div {
+    padding: 6px 23px;
+    border-radius: 3px;
+    background: #ffffff;
+    display: inline-block;
+}
+
+#clockdiv div > span {
+    padding: 0px 10px;
+    border-radius: 3px;
+    background: #81d8d0;
+    display: inline-block;
+}
+
+.smalltext {
+    padding-top: 5px;
+    font-size: 13px;
+    color: black;
+}
+/*timer css end*/
+
+.shop{
+      background: white;
+    color: #81d8d0;
+    width: 120px;
+    text-align: center;
+    padding: 8px;
+    position: absolute;
+    right: 260px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.cont_first{
+  font-family: 'Gotham Book',Verdana,sans-serif;
+  font-size: 13px;
+}
+
+@media (min-width: 312px) and (max-width: 900px){
+  .cont_first{
+    display: none;
+  }
+.jss247{
+  display: none;
+}
+.first-nav{
+  display: none;
+}
+.jss220{
+  display: none;
+}
+
+}
+
+
+/*mobile nav bar css end*/
+
+  /*  @font-face{font-family:melorraIcons;src:url(https://d25xjl7berdv27.cloudfront.net/melorra_fonts/fonts/melorraIcons.eot?der02o);src:url(https://d25xjl7berdv27.cloudfront.net/melorra_fonts/fonts/melorraIcons.eot?der02o#iefix) format('embedded-opentype'),url(https://d25xjl7berdv27.cloudfront.net/melorra_fonts/fonts/melorraIcons.ttf?der02o) format('truetype'),url(https://d25xjl7berdv27.cloudfront.net/melorra_fonts/fonts/melorraIcons.woff?der02o) format('woff'),url(https://d25xjl7berdv27.cloudfront.net/melorra_fonts/fonts/melorraIcons.svg?der02o#melorraIcons) format('svg');font-weight:400;font-style:normal;font-display:block;}
+    i{font-family:melorraIcons;speak:never;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.melorra-wishlist:before{content:"\e90a";}
+.melorra-bag:before{content:"\e90b";}
+.melorra-logo:before{content:"\e90c";}
+.melorra-call:before{content:"\e908";}
+.melorra-search:before{content:"\e909";
+padding-left: 13px;}*/
+/*navbar end*/
+
+.side_nav_mob{
+  width:15px;
+  cursor: pointer;
+}
+.brand_logo_mob{
+  width:150px;
+  position: absolute;
+    left: 30%;
+}
+.top_header_mob{
+  height: 43px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #dedede;
+}
+
+/*side nav bar start*/
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 7000;
+  top:43px;
+  left: 0;
+  border-right: 1px solid grey;
+  background: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size:14px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.section_link a:hover {
+      color: #ff8900;
+}
+
+
+.sidenav .closebtn {
+      position: absolute;
+    top: -24px;
+    right: -2px;
+    font-size: 45px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/*side nav bar end*/
+
+.section_link a{
+  /*padding: 40px !important;*/
+  border-bottom: 1px solid grey;
+}
+
+.imginer{
+  width: 25px;
+  margin-right: 10px;
+}
+
+@media (min-width:1000px){
+  .navbar-brand{
+    width:4% !important;
+
+  }
+}
+.sidenav .closebtn:hover{
+  transform: rotate(360deg);
+}
+.mobile_nav{
+  display: none;
+  position:sticky;
+  top:0px;
+  z-index: 5000;
+  background: white;
+}
+
+@media (min-width: 312px) and (max-width: 900px){
+  .mobile_nav{
+    display:block;
+  }
+
+  .ourcl{
+    margin-top:25px !important;
+  }
+
+  .collection_img{
+    padding-top: 25px !important;
+  }
+  .newimageinner10{
+    background-repeat:no-repeat;
+    height: 300px;
+    width: 100%;
+    border-radius: 0;
+  }
+  .newimageinner11{
+    background-repeat:no-repeat;
+    height: 300px;
+    width: 100%;
+    border-radius: 0;
+  }
+  .news{
+    text-align: center;
+  }
+  .text_input_news{
+    margin-bottom: 15px;
+  }
+}
+
+
+/*mobile nav bar  css end*/
+
+/*header css end*/
+
+
+
+		/*footer css start*/
+
+/*! CSS Used from: https://opencartdemo.multipurposethemes.com/oc006/catalog/view/javascript/bootstrap/css/bootstrap.min.css ; media=screen */
+@media screen{
+footer{display:block;}
+a{background-color:transparent;}
+a:active,a:hover{outline:0;}
+img{border:0;}
+hr{height:0;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;}
+@media print{
+*,:after,:before{color:#000!important;text-shadow:none!important;background:0 0!important;-webkit-box-shadow:none!important;box-shadow:none!important;}
+a,a:visited{text-decoration:underline;}
+a[href]:after{content:" (" attr(href) ")";}
+img{page-break-inside:avoid;}
+img{max-width:100%!important;}
+p{orphans:3;widows:3;}
+}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+a{color:#337ab7;text-decoration:none;}
+a:focus,a:hover{color:#23527c;text-decoration:underline;}
+a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px;}
+img{vertical-align:middle;}
+.img-responsive{display:block;max-width:100%;height:auto;}
+hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #eee;}
+h4{font-family:inherit;font-weight:500;line-height:1.1;color:inherit;}
+h4{margin-top:10px;margin-bottom:10px;}
+h4{font-size:18px;}
+p{margin:0 0 10px;}
+ul{margin-top:0;margin-bottom:10px;}
+.list-unstyled{padding-left:0;list-style:none;}
+.list-inline{padding-left:0;margin-left:-5px;list-style:none;}
+.list-inline>li{display:inline-block;padding-right:5px;padding-left:5px;}
+.container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;}
+@media (min-width:768px){
+.container{width:750px;}
+}
+@media (min-width:992px){
+.container{width:970px;}
+}
+@media (min-width:1200px){
+.container{width:1170px;}
+}
+.row{margin-right:-15px;margin-left:-15px;}
+.col-lg-6,.col-md-6,.col-sm-3,.col-sm-6,.col-xs-12{position:relative;min-height:1px;padding-right:15px;padding-left:15px;}
+.col-xs-12{float:left;}
+.col-xs-12{width:100%;}
+@media (min-width:768px){
+.col-sm-3,.col-sm-6{float:left;}
+.col-sm-6{width:50%;}
+.col-sm-3{width:25%;}
+}
+@media (min-width:992px){
+.col-md-6{float:left;}
+.col-md-6{width:50%;}
+}
+@media (min-width:1200px){
+.col-lg-6{float:left;}
+.col-lg-6{width:50%;}
+}
+.container:after,.container:before,.row:after,.row:before{display:table;content:" ";}
+.container:after,.row:after{clear:both;}
+}
+/*! CSS Used from: https://opencartdemo.multipurposethemes.com/oc006/catalog/view/javascript/font-awesome/css/font-awesome.min.css */
+.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.fa-phone:before{content:"\f095";}
+.fa-twitter:before{content:"\f099";}
+.fa-facebook:before{content:"\f09a";}
+.fa-rss:before{content:"\f09e";}
+.fa-pinterest:before{content:"\f0d2";}
+.fa-envelope:before{content:"\f0e0";}
+.fa-instagram:before{content:"\f16d";}
+.fa-paper-plane:before{content:"\f1d8";}
+/*! CSS Used from: https://opencartdemo.multipurposethemes.com/oc006/catalog/view/theme/jewelarystore/stylesheet/atstyle.css */
+footer{display:block;}
+a,div,footer,i,img,li,ul{border:0 none;margin:0;padding:0;border:0;outline:0;}
+ul{list-style:none;}
+img{vertical-align:top;}
+:focus{outline:none;}
+h4{font-size:1.2857142857142858em;}
+a{text-decoration:none;color:#252525;}
+a:hover,a:focus{text-decoration:none;color:#fc8b1c;}
+.footeraboutcontent{color:#898989;}
+footer{background:#fff;}
+.contact_footer,.contact_footer a{color:#898989;}
+footer .social-link li a:before{content:"";margin:0;}
+.copyright p{color:#898989;margin:0;}
+.footer_padding{padding-top:20px;}
+.footer_icon i.fa{margin-right:10px;}
+.footer_icon{padding-top:5px;}
+.footer_icon div{padding:5px 0 0;}
+.footer-title{color:#fff;text-transform:uppercase;padding-bottom:5px;margin-bottom:10px;}
+.footer_column ul.list-unstyled{padding-left:10px;}
+footer li a,footer li{color:#898989;transition:all 600ms ease 0s;-webkit-transition:all 600ms ease 0s;-moz-transition:all 600ms ease 0s;-ms-transition:all 600ms ease 0s;-o-transition:all 600ms ease 0s;}
+footer li a:before{content:"\f111";font-family:fontawesome;margin-right:10px;font-size:7px;vertical-align:middle;}
+.footer_bottom_outer{background:#81d8d0;padding:20px 0;}
+hr.footer_border{color:#fc8b1c;width:15%;text-align:left;border-color:#fc8b1c;margin:0 0 20px 0;}
+footer li a:hover{color:#fc8b1c;margin-left:5px;text-decoration:none;}
+footer .social-link{margin-top:20px;}
+footer .social-link li a i{width:30px;height:30px;background-color:rgba(255, 255, 255, 0.5);color:#4a4a4a;text-align:center;line-height:30px;font-size:1.2em;}
+footer .social-link li a:hover i{background-color:#fc8b1c;transition:all 600ms ease 0s;-webkit-transition:all 600ms ease 0s;-moz-transition:all 600ms ease 0s;-ms-transition:all 600ms ease 0s;-o-transition:all 600ms ease 0s;color:#fff;}
+footer .social-link li a:hover{margin-left:0px;}
+.footer_center{padding-top:30px;padding-bottom:30px;}
+.footerbottom_link{text-align:right;}
+.footerbottom_link li{display:inline-block;}
+footer .card ul.list-inline{margin:0;}
+footer .card li{padding:0px;}
+.list-unstyled li{padding:3px 0px;}
+@media only screen and (max-width: 1024px){
+.list-inline{margin-left:-5px;}
+footer .card li{width:18%;}
+}
+@media only screen and (max-width: 992px){
+.footer-title{margin-bottom:10px;margin-top:25px;}
+footer{padding:10px 0px;margin-top:10px;}
+footer .social-link li a i{height:20px;line-height:20px;width:20px;}
+}
+@media only screen and (max-width: 767px){
+footer .social-link li a i{width:40px;height:40px;line-height:40px;}
+footer .copyright{text-align:center;}
+.footerbottom_link{text-align:center;}
+footer .copyright{margin-top:10px;margin-bottom:10px;}
+footer .col-sm-3.footer_column{width:100%;}
+footer .card li{width:auto;padding:0 2px;}
+}
+@media only screen and (max-width: 480px){
+.img-responsive{display:inline;max-width:100%;height:auto;}
+}
+@media only screen and (max-width: 375px){
+footer .card li{padding:0px 0px;}
+}
+@media only screen and (max-width: 320px){
+.list-inline>li{padding-right:0px;padding-left:0px;}
+}
+/*! CSS Used fontfaces */
+
+
+
+/*footer css end*/
+
+   	/*! CSS Used from: Embedded */
+button{background:transparent;border:none;}
+*{margin:0px;padding:0px;box-sizing:border-box;}
+a{-webkit-text-decoration:none;text-decoration:none;color:#33363e;}
+a,a:active,button,a:hover{outline:0;}
+::-moz-focus-inner{border:0;}
+::-webkit-input-placeholder{font-family:'mulilight';font-size:1.1rem;color:#9e9fa5;}
+::-moz-placeholder{font-family:'mulilight';font-size:1.1rem;color:#9e9fa5;}
+:-ms-input-placeholder{font-family:'mulilight';font-size:1.1rem;color:#9e9fa5;}
+:-moz-placeholder{font-family:'mulilight';font-size:1.1rem;color:#9e9fa5;}
+:focus{outline:none;}
+h3{font-family:'latobold';font-weight:normal;}
+button{border:0;border-width:0;background:transparent;outline:0;}
+button:focus,a:focus{outline:none!important;}
+button{font-size:1.6rem;}
+img{border:0;}
+.container{width:100%;max-width:1440px;margin:0 auto;}
+.animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both;}
+.fadeIn{-webkit-animation-name:fadeIn;animation-name:fadeIn;}
+/*! CSS Used from: Embedded */
+.css-6yxsag{margin:0px;padding:0px;display:block;text-decoration:none;outline:0px;cursor:pointer;font-family:muliregular;color:inherit;font-size:inherit;}
+@media (max-width: 992px){
+.css-6yxsag{cursor:default;}
+}
+.css-7q7jcv{background:rgb(249, 249, 250);border:1px solid rgb(233, 233, 233);border-radius:2px;position:relative;padding:0px;width:100%;display:block;margin:12px 0px;height:calc(100% - 24px);cursor:pointer;}
+@media screen and (max-width: 992px){
+.css-7q7jcv{margin:6px 0px;height:calc(100% - 12px);}
+}
+.css-4m1ly3{font-size:1.4rem;font-family:MuliSemiBold, "Helvetica Neue", Helvetica, Arial, sans-serif;line-height:inherit;padding:0px 20px;color:rgb(35, 21, 53);}
+@media screen and (max-width: 340px) and (min-width: 320px){
+.css-4m1ly3{font-size:0.9rem;padding:0px 10px;}
+}
+@media screen and (max-width: 992px){
+.css-4m1ly3{font-size:1.1rem;padding:0px 10px;}
+}
+.css-1v678gb{display:inline-block;color:rgb(157, 159, 164);padding-left:8px;}
+body.fontLoaded .css-1v678gb{font-family:MuliRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+.css-1tedy9{text-overflow:ellipsis;overflow:hidden;white-space:nowrap;font-size:1.4rem;line-height:inherit;padding:0px 0px 20px 20px;color:rgb(157, 159, 164);max-width:calc(100% - 50px);}
+body.fontLoaded .css-1tedy9{font-family:MuliRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+@media screen and (max-width: 992px){
+.css-1tedy9{font-size:1.1rem;padding:0px 0px 10px 10px;max-width:calc(100% - 40px);}
+}
+.css-1vphsrx{width:100%;margin:0px auto;max-width:335px;left:50%;top:50%;display:block;transform:translate3d(-50%, -50%, 0px);overflow:hidden;position:absolute;}
+@media screen and (max-width: 768px){
+.css-1vphsrx{max-width:200px;}
+}
+@media not all{
+.css-1vphsrx{max-width:224px;}
+}
+@media screen and (min-width: 1152px){
+.css-1vphsrx{max-width:256px;}
+}
+@media screen and (min-width: 1280px){
+.css-1vphsrx{max-width:288px;}
+}
+@media screen and (min-width: 1366px){
+.css-1vphsrx{max-width:309.5px;}
+}
+@media screen and (min-width: 1400px){
+.css-1vphsrx{max-width:335px;}
+}
+.css-1xswtfw{width:100%;position:relative;bottom:0px;}
+.css-17ivqkn{width:100%;position:absolute;cursor:pointer;top:0px;}
+@media screen and (max-width: 992px){
+.css-17ivqkn{cursor:default;top:0px;}
+}
+.css-1fqd9as{position:absolute;right:0px;}
+@media screen and (max-width: 992px){
+.css-1fqd9as{right:0px;}
+}
+.css-1ggxnpa{position:absolute;left:0px;top:0px;}
+.css-ssd2ph{position:relative;display:block;padding-bottom:100%;overflow:hidden;pointer-events:none;}
+@media screen and (max-width: 475px) and (min-width: 320px){
+.css-ssd2ph{padding-bottom:100%;}
+}
+.css-1ci033r{position:relative;outline:none;cursor:pointer;height:40px;user-select:none;-webkit-tap-highlight-color:transparent;width:100%;border-radius:5px;box-sizing:border-box;font-family:inherit;margin:5px 0px;font-size:1.4rem;color:rgb(255, 255, 255);background:#eec782;border:none;}
+.css-bcc3ua{padding:12px;width:100%;display:flex;flex-wrap:wrap;-webkit-box-pack:start;justify-content:start;}
+@media (max-width: 992px){
+.css-bcc3ua{padding:18px 6px;}
+}
+.css-94w3z4{flex:0 0 25%;max-width:25%;padding:0px 12px;}
+@media (max-width: 992px){
+.css-94w3z4{padding:0px 6px;flex:0 0 50%;max-width:50%;}
+}
+.css-12layeo{padding:24px 0px;}
+.css-1uzubce{position:relative;padding:24px 0px;max-width:400px;margin:0px auto;width:100%;}
+.css-19ycrao{border-color:rgb(249, 249, 250);height:auto;opacity:0.5;}
+.css-87cwxz{position:absolute;left:50%;top:50%;background:rgb(255, 255, 255);padding:8px 20px;transform:translate(-50%, -50%);color:rgb(35, 21, 53);font-family:BegumRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;font-size:1.8rem;}
+.css-y8aj3r{padding:0px;}
+.css-9gtq6f{margin:0px 0px 60px;min-width:190px;max-width:100%;display:inline-block;width:100%;}
+@media (max-width: 992px) and (min-width: 320px){
+.css-9gtq6f{margin:0px 0px 50px;min-width:130px;max-width:100%;width:100%;}
+}
+.css-8v9u1r{background:url(https://assets.cltstatic.com/images/responsive/spriteImage1.png?t=1580384077297) -382px -55px / 832px no-repeat;display:block;cursor:pointer;width:40px;height:40px;}
+@media (max-width: 992px){
+.css-8v9u1r{cursor:default;}
+}
+@media (min-width: 993px){
+.css-8v9u1r{display:none;}
+}
+.css-1h0py1v{background:url(https://assets.cltstatic.com/images/responsive/spriteImage1.png?t=1580384077297) -602px -640px / 832px no-repeat;display:block;cursor:pointer;width:40px;height:40px;}
+@media (max-width: 992px){
+.css-1h0py1v{cursor:default;}
+}
+.css-1nqqqpf{position:absolute;text-align:center;width:100%;top:calc(100% - 10px);}
+@media (max-width: 992px){
+.css-1nqqqpf{top:calc(100% - 4px);}
+}
+.css-1nqqqpf button{width:176px;height:36px;line-height:36px;font-family:MuliBold, "Helvetica Neue", Helvetica, Arial, sans-serif;font-size:1.4rem;margin:0px auto;}
+@media (max-width: 992px){
+.css-1nqqqpf button{width:104px;max-width:176px;height:24px;line-height:24px;font-size:1.1rem;}
+}
+/*! CSS Used from: Embedded */
+section{display:block;}
+*,::before,::after{background-repeat:no-repeat;box-sizing:inherit;}
+::before,::after{text-decoration:inherit;vertical-align:inherit;}
+hr{height:0;overflow:visible;}
+::-moz-selection{background-color:#b3d4fc;color:#000000;text-shadow:none;}
+::selection{background-color:#b3d4fc;color:#000000;text-shadow:none;}
+img{vertical-align:middle;}
+img{border-style:none;}
+a{background-color:transparent;-webkit-text-decoration-skip:objects;}
+a:hover{outline-width:0;}
+button{background-color:transparent;border-style:none;color:inherit;font-size:1em;margin:0;}
+button{overflow:visible;}
+button{text-transform:none;}
+button{-webkit-appearance:button;}
+::-moz-focus-inner{border-style:none;padding:0;}
+:-moz-focusring{outline:1px dotted ButtonText;}
+::-webkit-input-placeholder{color:inherit;opacity:.54;}
+a,button{-ms-touch-action:manipulation;touch-action:manipulation;}
+/*! CSS Used keyframes */
+@-webkit-keyframes fadeIn{from{opacity:0;}to{opacity:1;}}
+@keyframes fadeIn{from{opacity:0;}to{opacity:1;}}
+/*! CSS Used fontfaces */
+@font-face{font-family:'MuliSemiBold';src:url(https://assets.cltstatic.com/desktop/live/maatran/build/f880aba0c9b501d3d43bb86f52836271.woff2) format('woff2'),     url(https://assets.cltstatic.com/desktop/live/maatran/build/5b67bf433f6012ec163bb17bf860edf1.woff) format('woff'),     url(https://assets.cltstatic.com/desktop/live/maatran/build/6504a5cd73e82bd72d1d3ded33279d35.ttf) format('ttf');font-display:swap;}
+@font-face{font-family:'MuliRegular';src:url(https://assets.cltstatic.com/desktop/live/maatran/build/743500abdf420f6f22f4ae16d9328886.woff2) format('woff2'),     url(https://assets.cltstatic.com/desktop/live/maatran/build/087cb22996bfb0f35007679e3164d0b4.woff) format('woff'),     url(https://assets.cltstatic.com/desktop/live/maatran/build/25dc88e941ae1c1b088df20ffaa98948.ttf) format('ttf');font-display:swap;}
+@font-face{font-family:'BegumRegular';src:url(https://assets.cltstatic.com/desktop/live/maatran/build/dc179aa46e00f2b7065217532f8b3514.woff2) format('woff2'),     url(https://assets.cltstatic.com/desktop/live/maatran/build/3f82bc99b8cedb50fa6f88a1723f9ec5.woff) format('woff'),     url(https://assets.cltstatic.com/desktop/live/maatran/build/a4950c8d6a78f64202a58e580031e95d.ttf) format('ttf');font-display:swap;}
+@font-face{font-family:'MuliBold';src:url(https://assets.cltstatic.com/desktop/live/maatran/build/7b7626b3d92105bde067f0d537412fd1.woff2) format('woff2'),     url(https://assets.cltstatic.com/desktop/live/maatran/build/e6ce6f049b5adbda9d9f325a17d1104b.woff) format('woff'),     url(https://assets.cltstatic.com/desktop/live/maatran/build/b168035f557a338a053902f942645342.ttf) format('ttf');font-display:swap;}
+*{
+	font-size: 13px;
+}
+   </style>
+   <!-- wishlist css end -->
+</head>
+<body>
+
+
+<!-- header start -->
+<!-- mobile nav bar start -->
+<section class="mobile_nav">
+<header class="top_header_mob">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <img onclick="openNav()" class="side_nav_mob" src="img/menu.png">
+
+        <img class="brand_logo_mob" src="file://readyshare/USB_Storage/jewwllers%20%20paradies/img/Untitled-5.png">
+
+
+        <span class="float-right">
+        <i class="melorra-wishlist"></i>
+        <i class="melorra-bag"></i>
+        </span>
+      </div>
+    </div>
+
+  </div>
+</header>
+<section class="search_mob"  style="height: 63px;">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+
+          <form style="margin-top: 23px;">
+      <input  type="text" placeholder="Search Here.." name="search" style="
+
+    border-bottom:1px solid #9f9f9f;
+    border-top:1px solid #9f9f9f;
+    border-left: 1px solid #9f9f9f;
+    position: absolute;
+    padding-left: 19px;
+    width: 320px;
+    margin-top: -4px;
+    border-radius: 50px;">
+
+      <span  type="submit"><i class="melorra-search" aria-hidden="true" style="
+    position: absolute;
+    margin-left: 275px;
+    margin-top: -22px;
+    width: 57px;
+    height: 28px;
+    padding: 7px 0px 0 7px;
+    background: #81d8d0 !important;
+    color: white;
+    border-radius: 0px 50px 50px 0px;
+    "></i></span>
+    </form>
+    </div>
+      </div>
+    </div>
+    </section>
+  </section>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+<section >
+  <div class="user_img">
+                        <!-- <img src="file:///C:/Users/pro/Downloads/portrait-beautiful-young-woman-earring-jewelry-acce-accessories-perfect-makeup-fashion-photo-42715699.jpg" style="width: 60px;height:60px;border-radius:50%;margin: 19px;"> -->
+                      </div>
+  <a href="#" style="font-weight: 700;font-size:17px;color:darkred;border-bottom: 1px solid lightgrey">Piyush Chaurasia </a>
+</section>
+
+
+<section class="section_link">
+  <a href="#"></i> Home</a>
+  <a href="#">New Arrivals</a>
+  <a href="#">Fresh water pearl</a>
+  <a href="#">Gems & Beads</a>
+  <a href="#">Gems </a>
+  <a href="#">Find Shop</a>
+  <a href="#">Dealer Enquiry</a>
+  <a href="#">Sign in</a>
+  <a href="#">Sign Out</a>
+
+
+</section>
+</div>
+</section>
+
+<!-- mobile nav bar end -->
+  <div class=" nav first-nav sticky-top" style="background-color:#81d8d0;color: white;">
+    <span style="width: 100%;height:85px;display: flex;justify-content: center;align-items: center; overflow: hidden;">
+      <p style="font-family: 'Lobster', cursive !important;font-size:36px;text-decoration: underline;/* margin-left: -108px; */ position: absolute;left: 191px;">sale ends in</p>
+<div id="clockdiv">
+  <div>
+    <span class="days"></span>
+    <div class="smalltext">Days</div>
+  </div>
+  <div>
+    <span class="hours"></span>
+    <div class="smalltext">Hours</div>
+  </div>
+  <div>
+    <span class="minutes"></span>
+    <div class="smalltext">Minutes</div>
+  </div>
+  <div>
+    <span class="seconds"></span>
+    <div class="smalltext">Seconds</div>
+  </div>
+</div>
+    <p class="shop">Shop Now</p>
+
+    </span>
+  </div>
+
+<div class="container-fluid pt-2 cont_first" >
+  <span class="mr-5">WHOLESALE INQUERY</span>
+  <span>CUSTOMER ORDER</span>
+  <span class="float-right ml-4">LANGUAGE</span>
+  <span class="float-right ml-4">CURRENCY</span>
+  <span class="float-right ml-4">REGISTER</span>
+  <span class="float-right ml-4">LOGIN</span>
+
+</div>
+
+
+
+  <div class="jss247">
+    <header class="jss220 jss226 jss251 jss255 jss258">
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-4">
+          <form style="margin-top: 23px;">
+      <input type="text" placeholder="Search Here.." name="search" style="
+
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    position: absolute;
+    height: 50px;
+    padding-left: 19px;
+    width: 420px;
+    margin-top: -4px;
+    border-radius: 50px;">
+
+      <span  type="submit"><i class="melorra-search" aria-hidden="true" style="
+    position: absolute;
+    margin-left: 338px;
+    margin-top: -19px;
+    width: 85px;
+    height: 50px;
+    padding: 18px 0px 0 16px;
+    background: #81d8d0 !important;
+    color: white;
+    border-radius: 0px 50px 50px 0px;
+    "></i></span>
+    </form>
+    </div>
+    <div class="col-4 text-center" >
+      <h1 class=" jss249">
+
+          <img src="img/page_1.jpg"  style="    width: 64%;">
+
+        </h1>
+    </div>
+    <div class="col-4 text-right mt-auto mb-auto">
+
+            <a class="jss321" href="/wishlist/">
+              <button class="jss301 jss322" tabindex="0" type="button">
+                <span class="jss327">
+                  <span class="jss328 jss320">
+                    <i class="melorra-wishlist"></i>
+                    <span class="jss329 jss330">0</span>
+                  </span>
+              </span>
+              <span class="jss474"></span>
+              </button>
+            </a>
+            <button class="jss301 jss322 jss319" tabindex="0" type="button">
+              <span class="jss327">
+                <span class="jss328 jss320">
+                  <i class="melorra-bag"></i>
+                  <span class="jss329 jss330">0</span>
+                </span>
+            </span>
+            <span class="jss474"></span>
+            </button>
+            <a href="/sign-in/">
+              <span class="jss172 jss182 jss321" style="display: inline; color: rgb(31, 31, 31); font-size: 10px; font-weight: 500;">SIGN IN
+              </span>
+            </a>
+
+    </div>
+  </div>
+</div>
+
+
+
+    </header>
+  </div>
+  <header class="jss220 jss226 jss251 jss254 jss258" style="border-top: 2px solid #81d8d0;
+    border-bottom: 2px solid #81d8d0;">
+    <div class="jss342">
+      <div class="jss260 jss263 jss344" style="position: sticky;">
+        <div  id="textNEW-ARRIVALS" style="padding:20px">
+        <p class="jss172 jss180 jss203 jss346  active"aria-haspopup="true" style="">
+          HOME
+        </p>
+        </div>
+        <span  class="jss172 jss183 jss203 jss343">
+
+            <div  class="jss345">NEW ARRIVALS</div>
+
+        </span>
+        <p class="jss172 jss180 jss203 jss346" id="textRINGS" aria-haspopup="true">
+          FRESH WATER PEARL
+        </p>
+        <p class="jss172 jss180 jss203 jss346" id="textEARRINGS" aria-haspopup="true">
+        GEMS & BEADS
+        </p>
+        <p class="jss172 jss180 jss203 jss346" id="textPENDANTS" aria-haspopup="true">
+        GEMSTONE ROUGH
+        </p>
+        <p class="jss172 jss180 jss203 jss346" id="textCHAINS" aria-haspopup="true">
+        CONNECTOR & PENDENT
+        </p>
+        <!-- <span class="jss172 jss183 jss203 jss343">
+
+            <div class="jss345">SOLITAIRES</div>
+
+        </span> -->
+        <p class="jss172 jss180 jss203 jss346" id="textSHOP-ALL-JEWELLERY" aria-haspopup="true">
+          COPPER BEADS
+        </p>
+
+        <!--  <span class="jss172 jss183 jss203 jss343">BLOG</span> -->
+
+        <!-- <span class="jss172 jss183 jss203 jss343">
+          <a href="/jewellery/gold-coins/">
+            <div class="jss345">GOLD COINS</div>
+          </a>
+        </span> -->
+        <p class="jss172 jss180 jss203 jss346" id="textGIFTS" aria-haspopup="true">
+          JEWELRY
+        </p>
+        <p class="jss172 jss180 jss203 jss346" id="textGIFTS" aria-haspopup="true">
+          CHAINS
+        </p>
+        <p class="jss172 jss180 jss203 jss346" id="textGIFTS" aria-haspopup="true">
+          CLEARANCE
+        </p>
+      </div>
+    </div>
+  </header>
+
+
+  <div class="css-gkqrda ebw7e5r0 show1" id="show1" >
+    <a href="/jewellery/earrings.html" to="/jewellery/earrings.html" class="css-1ibii9v ebw7e5r5">SEE ALL DESIGNS</a>
+    <div class="css-p7odfy euel9vd0">
+      <h3 class="css-1sdgq5d ebw7e5r1">SHOP BY STYLE</h3>
+      <ul class="css-qnhxbx ebw7e5r7">
+        <li class="css-16uk4ka ebw7e5r8">
+          <a href="/jewellery/studs.html" class="css-16ozcek ebw7e5r9">
+            <div class="css-1xcg98c euel9vd1">
+              <img class="ebw7e5r6 css-vejw4d e1nln7oz0" data-src="https://banner.caratlane.com/live-images/c4b1660f99f34e688274b930a5a70d8f.jpg" data-srcset="https://banner.caratlane.com/live-images/bc021324e5ec4ce4b5a0e8b3cb812281.jpg 2x,https://banner.caratlane.com/live-images/3f4afc972538457bbe6d69656fd664d9.jpg 3x" srcset="https://banner.caratlane.com/live-images/bc021324e5ec4ce4b5a0e8b3cb812281.jpg  2x,https://banner.caratlane.com/live-images/3f4afc972538457bbe6d69656fd664d9.jpg  3x" src="https://banner.caratlane.com/live-images/c4b1660f99f34e688274b930a5a70d8f.jpg" alt="caratlane earring image">
+            </div>
+            <h5 class="css-2rl2mb ebw7e5r10">STUDS</h5>
+          </a>
+        </li>
+        <li class="css-16uk4ka ebw7e5r8">
+          <a href="/jewellery/drops-earrings.html" class="css-16ozcek ebw7e5r9">
+            <div class="css-1xcg98c euel9vd1">
+              <img class="ebw7e5r6 css-vejw4d e1nln7oz0" data-src="https://banner.caratlane.com/live-images/c82f3668b7524234a033ca0f1e9198bf.jpg" data-srcset="https://banner.caratlane.com/live-images/1e74772254ab4f5f90d48485de3a5cde.jpg 2x,https://banner.caratlane.com/live-images/2c49769799444917b3d87ac6f81849f9.jpg 3x" srcset="https://banner.caratlane.com/live-images/1e74772254ab4f5f90d48485de3a5cde.jpg  2x,https://banner.caratlane.com/live-images/2c49769799444917b3d87ac6f81849f9.jpg  3x" src="https://banner.caratlane.com/live-images/c82f3668b7524234a033ca0f1e9198bf.jpg" alt="caratlane earring image ">
+            </div>
+            <h5 class="css-2rl2mb ebw7e5r10">DROPS</h5>
+          </a>
+        </li>
+        <li class="css-16uk4ka ebw7e5r8">
+          <a href="/jewellery/jhumkas-earrings.html" class="css-16ozcek ebw7e5r9">
+            <div class="css-1xcg98c euel9vd1">
+              <img class="ebw7e5r6 css-vejw4d e1nln7oz0" data-src="https://banner.caratlane.com/live-images/52cfa0dc9f594add9c35c898d642b8f2.jpg" data-srcset="https://banner.caratlane.com/live-images/2e4c7ee667434835bb7dd4b3a55ac663.jpg 2x,https://banner.caratlane.com/live-images/de1c56495600478a8f3bda060b46da79.jpg 3x" srcset="https://banner.caratlane.com/live-images/2e4c7ee667434835bb7dd4b3a55ac663.jpg  2x,https://banner.caratlane.com/live-images/de1c56495600478a8f3bda060b46da79.jpg  3x" src="https://banner.caratlane.com/live-images/52cfa0dc9f594add9c35c898d642b8f2.jpg" alt="caratlane earring image">
+            </div>
+            <h5 class="css-2rl2mb ebw7e5r10">JHUMKAS</h5>
+          </a>
+        </li>
+        <li class="css-16uk4ka ebw7e5r8">
+          <a href="/jewellery/hoops-earrings.html" class="css-16ozcek ebw7e5r9">
+            <div class="css-1xcg98c euel9vd1">
+              <img class="ebw7e5r6 css-vejw4d e1nln7oz0" data-src="https://banner.caratlane.com/live-images/f437f34cb83e461db8c268d7f575307e.jpg" data-srcset="https://banner.caratlane.com/live-images/109deebdd9ba4bde938bbf4dc05d0d89.jpg 2x,https://banner.caratlane.com/live-images/ab12aa02847d4fb592ee9ef754de7240.jpg 3x" srcset="https://banner.caratlane.com/live-images/109deebdd9ba4bde938bbf4dc05d0d89.jpg  2x,https://banner.caratlane.com/live-images/ab12aa02847d4fb592ee9ef754de7240.jpg  3x" src="https://banner.caratlane.com/live-images/f437f34cb83e461db8c268d7f575307e.jpg" alt="caratlane earring image">
+            </div>
+            <h5 class="css-2rl2mb ebw7e5r10">HOOPS AND HUGGIES</h5>
+          </a>
+        </li>
+        <li class="css-16uk4ka ebw7e5r8">
+          <a href="/jewellery/earcuffs.html" class="css-16ozcek ebw7e5r9">
+            <div class="css-1xcg98c euel9vd1">
+              <img class="ebw7e5r6 css-vejw4d e1nln7oz0" data-src="https://banner.caratlane.com/live-images/4868fb10515f42c184cb4e1a58cd03e2.jpg" data-srcset="https://banner.caratlane.com/live-images/6dc75156eec74fc684074bc120da0ab7.jpg 2x,https://banner.caratlane.com/live-images/1be6a511151f43e78bb922eed3ab8e82.jpg 3x" srcset="https://banner.caratlane.com/live-images/6dc75156eec74fc684074bc120da0ab7.jpg  2x,https://banner.caratlane.com/live-images/1be6a511151f43e78bb922eed3ab8e82.jpg  3x" src="https://banner.caratlane.com/live-images/4868fb10515f42c184cb4e1a58cd03e2.jpg" alt="caratlane earring image">
+            </div>
+            <h5 class="css-2rl2mb ebw7e5r10">EARCUFFS</h5>
+          </a>
+        </li>
+        <li class="css-16uk4ka ebw7e5r8">
+          <a href="/jewellery/sui+dhaga-earrings.html" class="css-16ozcek ebw7e5r9">
+            <div class="css-1xcg98c euel9vd1">
+              <img class="ebw7e5r6 css-vejw4d e1nln7oz0" data-src="https://banner.caratlane.com/live-images/a120698699a246908c29666c4f787243.jpg" data-srcset="https://banner.caratlane.com/live-images/e4b0859435fb41beb5085b49a7a180f2.jpg 2x,https://banner.caratlane.com/live-images/71f3134a76424b48a8b660f740c97993.jpg 3x" srcset="https://banner.caratlane.com/live-images/e4b0859435fb41beb5085b49a7a180f2.jpg  2x,https://banner.caratlane.com/live-images/71f3134a76424b48a8b660f740c97993.jpg  3x" src="https://banner.caratlane.com/live-images/a120698699a246908c29666c4f787243.jpg" alt="caratlane earring image">
+            </div>
+            <h5 class="css-2rl2mb ebw7e5r10">SUIDHAGA</h5>
+          </a>
+        </li>
+        <li class="css-16uk4ka ebw7e5r8">
+          <a href="/jewellery/pearl-earrings.html" class="css-16ozcek ebw7e5r9">
+            <div class="css-1xcg98c euel9vd1">
+              <img class="ebw7e5r6 css-vejw4d e1nln7oz0" data-src="https://banner.caratlane.com/live-images/60d6ae3d4a184e96b7c51059749d2d74.jpg" data-srcset="https://banner.caratlane.com/live-images/897d32053d58425baca2dd88b646c877.jpg 2x,https://banner.caratlane.com/live-images/f9dc2bf72716435896ee9a80ed997cf4.jpg 3x" srcset="https://banner.caratlane.com/live-images/897d32053d58425baca2dd88b646c877.jpg  2x,https://banner.caratlane.com/live-images/f9dc2bf72716435896ee9a80ed997cf4.jpg  3x" src="https://banner.caratlane.com/live-images/60d6ae3d4a184e96b7c51059749d2d74.jpg" alt="caratlane earring image">
+            </div>
+            <h5 class="css-2rl2mb ebw7e5r10">PEARL EARRINGS</h5>
+            </a>
+          </li>
+          <li class="css-16uk4ka ebw7e5r8">
+            <a href="/jewellery/multi+pierced-earrings.html" class="css-16ozcek ebw7e5r9">
+              <div class="css-1xcg98c euel9vd1">
+                <img class="ebw7e5r6 css-vejw4d e1nln7oz0" data-src="https://banner.caratlane.com/live-images/3202fa36d7a949f79159d929b6e8b780.jpg" data-srcset="https://banner.caratlane.com/live-images/f7486b7fad6d46688477ffc809b54106.jpg 2x,https://banner.caratlane.com/live-images/a7e88da91bdf4002904343f3fc48dfd7.jpg 3x" srcset="https://banner.caratlane.com/live-images/f7486b7fad6d46688477ffc809b54106.jpg  2x,https://banner.caratlane.com/live-images/a7e88da91bdf4002904343f3fc48dfd7.jpg  3x" src="https://banner.caratlane.com/live-images/3202fa36d7a949f79159d929b6e8b780.jpg" alt="caratlane earring image">
+              </div>
+              <h5 class="css-2rl2mb ebw7e5r10">MULTI PIERCED</h5>
+            </a>
+          </li>
+          <li class="css-16uk4ka ebw7e5r8">
+            <a href="/jewellery/earrings-kids+jewellery.html" class="css-16ozcek ebw7e5r9">
+              <div class="css-1xcg98c euel9vd1">
+                <img class="ebw7e5r6 css-vejw4d e1nln7oz0" data-src="https://banner.caratlane.com/live-images/d5d6cb930c0f4757808df8a79d2fddff.jpg" data-srcset="https://banner.caratlane.com/live-images/7dcf0ec6432c4565a2f8648528efb4a0.png 2x,https://banner.caratlane.com/live-images/b3c5d91d0e4c49ed9fe673d1fd5daa69.png 3x" srcset="https://banner.caratlane.com/live-images/7dcf0ec6432c4565a2f8648528efb4a0.png  2x,https://banner.caratlane.com/live-images/b3c5d91d0e4c49ed9fe673d1fd5daa69.png  3x" src="https://banner.caratlane.com/live-images/d5d6cb930c0f4757808df8a79d2fddff.jpg" alt="KIDS EARRINGS">
+              </div>
+              <h5 class="css-2rl2mb ebw7e5r10">KIDS EARRINGS</h5>
+            </a>
+          </li>
+          <li class="css-16uk4ka ebw7e5r8">
+            <a href="/silver-earrings/?filters=statementearrings|studearrings/?utm_campaign=CL_SubStyleMenu&amp;utm_medium=Caratlane&amp;utm_source=CL_SubStyleMenu " class="ebw7e5r9 css-zeveam epg3bs00">
+              <div class="css-1xcg98c euel9vd1">
+                <img class="ebw7e5r6 css-vejw4d e1nln7oz0" data-src="https://banner.caratlane.com/live-images/00f25a9f43944be4a04cfc472207202f.jpg" data-srcset="https://banner.caratlane.com/live-images/964241ee476244baa00c5ef8b6f4ce26.jpg 2x" srcset="https://banner.caratlane.com/live-images/964241ee476244baa00c5ef8b6f4ce26.jpg  2x" src="https://banner.caratlane.com/live-images/00f25a9f43944be4a04cfc472207202f.jpg" alt="Silver Statement Earrings">
+              </div>
+              <h5 class="css-2rl2mb ebw7e5r10">STATEMENT - SILVER </h5>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+
+
+  <div type="FULL_SIZED_BANNER_BLOCK" class="css-1ydlhvy e2aixp50">
+    <a href="/jewellery/earrings-by-featured.html" class="css-k4ar8c e2aixp51">
+      <img src="img/il_794xN.2553385231_5em6.jpg" style="width: 100%">
+      <div class="css-1fy77to e2aixp53">
+      <h2 class="css-bm423n e2aixp54">Jewelry Picks</h2>
+      <button class="e2aixp56 css-popdrg e1jmj0hg0">Explore Now</button>
+    </div>
+    </a>
+  </div>
+  </div>
+
+<!-- header end -->
+
+
+<div class="paddingfromtop">
+	<section class="css-12layeo e1enhr2x0">
+		<div class="container">
+			<div class="css-1uzubce e1enhr2x2">
+				<hr class="css-19ycrao e1enhr2x4">
+				<h3 class="css-87cwxz e1enhr2x3">Your Wishlist</h3>
+			</div>
+			<div class="css-y8aj3r e1enhr2x1">
+				<div class="css-bcc3ua e15vk4mm0">
+					<div span="1" class="css-94w3z4 e1fkptg30">
+						<div class="css-9gtq6f e1enhr2x8">
+							<div data-sku="SR00061-WGP900" class="css-7q7jcv">
+								<div role="presentation">
+									<div class="css-ssd2ph">
+										<img class="css-1vphsrx productcard-frontimage animated fadeIn" src="img/il_794xN.2511284689_7l4u.jpg" data-src="//cdn1.caratlane.com/media/catalog/product/cache/6/image/440x440/9df78eab33525d08d6e5fb8d27136e95/S/R/SR00061-WGP900_1_lar.jpg" alt="Promise Solitaire Ring" title="Promise Solitaire Ring">
+									</div>
+									<div class="css-17ivqkn" role="presentation">
+										<div class="css-1ggxnpa">
+											<span class="erq4t6018 css-8v9u1r efp5dbi0">
+
+											</span>
+										</div>
+										<div class="css-1fqd9as">
+											<span class="erq4t6017 css-1h0py1v efp5dbi0">
+
+											</span>
+										</div>
+									</div>
+									<div class="css-1xswtfw bottomContainer">
+										<p class="css-4m1ly3">
+											<span data-name="regPrice" locale="en_IN">&#8377; 34,123</span>
+											<span class="css-1v678gb">
+												<span data-name="strikePrice" locale="en_IN">
+													<del>&#8377;&#822; &#822;3&#822;8&#822;,&#822;1&#822;2&#822;0&#822;</del>
+												</span>
+											</span>
+										</p>
+										<a href="https://www.caratlane.com/jewellery/promise-solitaire-ring-sr00061-wgp900.html" class="css-6yxsag epg3bs00">
+											<p class="css-1tedy9">Promise Solitaire Ring</p>
+										</a>
+									</div>
+								</div>
+								<div class="css-1nqqqpf e1enhr2x7">
+									<button content="Move to Cart" class="e1jmj0hg1 css-1ci033r e1jmj0hg0">Move to Cart</button>
+								</div>
+							</div>
+						</div>
+										</div>
+
+										<div span="1" class="css-94w3z4 e1fkptg30">
+						<div class="css-9gtq6f e1enhr2x8">
+							<div data-sku="SR00061-WGP900" class="css-7q7jcv">
+								<div role="presentation">
+									<div class="css-ssd2ph">
+										<img class="css-1vphsrx productcard-frontimage animated fadeIn" src="img/il_794xN.2186357273_svum.jpg" data-src="//cdn1.caratlane.com/media/catalog/product/cache/6/image/440x440/9df78eab33525d08d6e5fb8d27136e95/S/R/SR00061-WGP900_1_lar.jpg" alt="Promise Solitaire Ring" title="Promise Solitaire Ring">
+									</div>
+									<div class="css-17ivqkn" role="presentation">
+										<div class="css-1ggxnpa">
+											<span class="erq4t6018 css-8v9u1r efp5dbi0">
+
+											</span>
+										</div>
+										<div class="css-1fqd9as">
+											<span class="erq4t6017 css-1h0py1v efp5dbi0">
+
+											</span>
+										</div>
+									</div>
+									<div class="css-1xswtfw bottomContainer">
+										<p class="css-4m1ly3">
+											<span data-name="regPrice" locale="en_IN">&#8377; 34,123</span>
+											<span class="css-1v678gb">
+												<span data-name="strikePrice" locale="en_IN">
+													<del>&#8377;&#822; &#822;3&#822;8&#822;,&#822;1&#822;2&#822;0&#822;</del>
+												</span>
+											</span>
+										</p>
+										<a href="https://www.caratlane.com/jewellery/promise-solitaire-ring-sr00061-wgp900.html" class="css-6yxsag epg3bs00">
+											<p class="css-1tedy9">Promise Solitaire Ring</p>
+										</a>
+									</div>
+								</div>
+								<div class="css-1nqqqpf e1enhr2x7">
+									<button content="Move to Cart" class="e1jmj0hg1 css-1ci033r e1jmj0hg0">Move to Cart</button>
+								</div>
+							</div>
+						</div>
+										</div>
+
+										<div span="1" class="css-94w3z4 e1fkptg30">
+						<div class="css-9gtq6f e1enhr2x8">
+							<div data-sku="SR00061-WGP900" class="css-7q7jcv">
+								<div role="presentation">
+									<div class="css-ssd2ph">
+										<img class="css-1vphsrx productcard-frontimage animated fadeIn" src="img/il_794xN.2511284689_7l4u.jpg" data-src="//cdn1.caratlane.com/media/catalog/product/cache/6/image/440x440/9df78eab33525d08d6e5fb8d27136e95/S/R/SR00061-WGP900_1_lar.jpg" alt="Promise Solitaire Ring" title="Promise Solitaire Ring">
+									</div>
+									<div class="css-17ivqkn" role="presentation">
+										<div class="css-1ggxnpa">
+											<span class="erq4t6018 css-8v9u1r efp5dbi0">
+
+											</span>
+										</div>
+										<div class="css-1fqd9as">
+											<span class="erq4t6017 css-1h0py1v efp5dbi0">
+
+											</span>
+										</div>
+									</div>
+									<div class="css-1xswtfw bottomContainer">
+										<p class="css-4m1ly3">
+											<span data-name="regPrice" locale="en_IN">&#8377; 34,123</span>
+											<span class="css-1v678gb">
+												<span data-name="strikePrice" locale="en_IN">
+													<del>&#8377;&#822; &#822;3&#822;8&#822;,&#822;1&#822;2&#822;0&#822;</del>
+												</span>
+											</span>
+										</p>
+										<a href="https://www.caratlane.com/jewellery/promise-solitaire-ring-sr00061-wgp900.html" class="css-6yxsag epg3bs00">
+											<p class="css-1tedy9">Promise Solitaire Ring</p>
+										</a>
+									</div>
+								</div>
+								<div class="css-1nqqqpf e1enhr2x7">
+									<button content="Move to Cart" class="e1jmj0hg1 css-1ci033r e1jmj0hg0">Move to Cart</button>
+								</div>
+							</div>
+						</div>
+										</div>
+
+
+
+		</div>
+	</div>
+</section>
+</div>
+<!-- footer start -->
+
+<footer>
+
+
+  <div class="container footer_center">
+
+
+
+    <div class="row">
+
+
+    <div class="col-sm-3 footer_column">
+
+
+
+        <h4 class="footer-title"><img src="img/page_1.jpg" style="width: 64%;" alt="footerlogo"></h4>
+
+    <hr class="footer_border">
+        <div class="footeraboutcontent">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis mauris nec erat auctor, maximus aliquet quam interdum. Nulla auctor turpis et sem maximus venenatis.
+    </div>
+
+     <div class="social-link">
+
+
+
+                          <ul class="list-inline">
+
+
+
+                              <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+
+
+
+                                <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+
+
+
+                                <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+
+
+
+                                <li><a href="#"><i class="fab fa-pinterest-square"></i></a></li>
+
+
+
+                                <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+
+
+
+                            </ul>
+
+
+
+                        </div>
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+      <div class="col-sm-3 footer_column">
+
+
+
+        <h4 class="footer-title footer_padding">My Account</h4>
+    <hr class="footer_border">
+
+
+        <ul class="list-unstyled">
+
+
+
+          <li><a href="https://opencartdemo.multipurposethemes.com/oc006/index.php?route=account/account">My Account</a></li>
+
+
+
+          <li><a href="https://opencartdemo.multipurposethemes.com/oc006/index.php?route=account/order">Order History</a></li>
+
+
+
+          <li><a href="https://opencartdemo.multipurposethemes.com/oc006/index.php?route=account/wishlist">Wish List</a></li>
+
+
+
+          <li><a href="https://opencartdemo.multipurposethemes.com/oc006/index.php?route=account/newsletter">Newsletter</a></li>
+
+
+
+        </ul>
+
+
+
+      </div>
+
+
+
+
+
+
+      <div class="col-sm-3 footer_column">
+
+
+
+        <h4 class="footer-title footer_padding">Information</h4>
+
+    <hr class="footer_border">
+
+        <ul class="list-unstyled">
+
+
+
+
+
+
+          <li><a href="https://opencartdemo.multipurposethemes.com/oc006/index.php?route=information/information&amp;information_id=4">About Us</a></li>
+
+
+
+
+
+
+          <li><a href="https://opencartdemo.multipurposethemes.com/oc006/index.php?route=information/information&amp;information_id=6">Delivery Information</a></li>
+
+
+
+
+
+
+          <li><a href="https://opencartdemo.multipurposethemes.com/oc006/index.php?route=information/information&amp;information_id=3">Privacy Policy</a></li>
+
+
+
+
+
+
+          <li><a href="https://opencartdemo.multipurposethemes.com/oc006/index.php?route=information/information&amp;information_id=5">Terms &amp; Conditions</a></li>
+
+
+
+
+
+
+        </ul>
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+     <div class="col-sm-3 footer_column">
+
+
+
+        <h4 class="footer-title footer_padding">Contact Us</h4>
+
+    <hr class="footer_border">
+    <div class="contact_footer">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    <div class="footer_icon">
+    <div><i class="fa fa-paper-plane" aria-hidden="true"></i>123, Lorem Ipsum, India</div>
+    <div><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@demo.com">info@demo.com</a></div>
+    <div><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+1234567890">123 456 7890</a></div>
+
+    </div>
+    </div>
+
+
+      </div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+<div class="footer_bottom_outer">
+    <div class="container">
+
+
+
+
+
+
+
+  <div class="row">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+
+
+
+
+<div class="copyright">
+
+
+
+
+
+
+
+                           <p>Jewelary Store � 2020 All Rights Reserved.</p>
+
+
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 footerbottom_link">
+
+
+
+
+
+
+
+                      <div class="card">
+
+
+
+
+
+
+
+                          <ul class="list-inline">
+
+
+
+
+
+
+
+                              <li><img class="img-responsive" src="https://opencartdemo.multipurposethemes.com/oc006/catalog/view/theme/jewelarystore/image/custom/cards/visa.png" alt="visa"></li>
+
+
+
+
+
+
+
+                                <li><img class="img-responsive" src="https://opencartdemo.multipurposethemes.com/oc006/catalog/view/theme/jewelarystore/image/custom/cards/discover.png" alt="discover"></li>
+
+
+
+
+
+
+
+                                <li><img class="img-responsive" src="https://opencartdemo.multipurposethemes.com/oc006/catalog/view/theme/jewelarystore/image/custom/cards/paypal.png" alt="paypal"></li>
+
+
+
+
+
+
+
+                                <li><img class="img-responsive" src="https://opencartdemo.multipurposethemes.com/oc006/catalog/view/theme/jewelarystore/image/custom/cards/vindicia.png" alt="vindicia"></li>
+
+                            </ul>
+
+
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+ </div>
+
+
+                </div>
+
+
+
+        </div>
+
+
+
+</footer>
+
+
+     <!-- footer end -->
+</body>
+
+<!-- header script start -->
+<!-- mobile nav script start -->
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "30%";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<!-- mobile nav bar script end -->
+<script type="text/javascript">
+  $(function() {
+    let isMobile = window.matchMedia("only screen and (max-width: 760px)").matches;
+
+    if (isMobile) {
+        //Conditional script here
+        alert('hii');
+    }
+ });
+</script>
+
+<script type="text/javascript">
+
+  $("#textNEW-ARRIVALS").hover(function(){
+   $("#show1").css({"display": "flex"});
+},function(){
+    $("#show1").css({"display": "none"});
+});
+</script>
+
+
+<script type="text/javascript">
+
+  $("#show1").hover(function(){
+
+   $("#show1").css({"display": "flex" ,"z-index":" 1"});
+});
+</script>
+
+<script type="text/javascript">
+
+  $(".jss247").hover(function(){
+
+   $("#show1").css({"display": "none"});
+});
+</script>
+
+<script type="text/javascript">
+
+  $(".row").hover(function(){
+
+   $("#show1").css({"display": "none"});
+});
+</script>
+<script type="text/javascript">
+
+  $("#demo,h1,h2").hover(function(){
+
+   $("#show1").css({"display": "none"});
+});
+</script>
+  <script>
+    AOS.init();
+  </script>
+
+<!-- new timer script -->
+<script type="text/javascript">
+  function getTimeRemaining(endtime) {
+  const total = Date.parse(endtime) - Date.parse(new Date());
+  const seconds = Math.floor((total / 1000) % 60);
+  const minutes = Math.floor((total / 1000 / 60) % 60);
+  const hours = Math.floor((total / (1000 * 60 * 60)) % 24);
+  const days = Math.floor(total / (1000 * 60 * 60 * 24));
+
+  return {
+    total,
+    days,
+    hours,
+    minutes,
+    seconds
+  };
+}
+
+function initializeClock(id, endtime) {
+  const clock = document.getElementById(id);
+  const daysSpan = clock.querySelector('.days');
+  const hoursSpan = clock.querySelector('.hours');
+  const minutesSpan = clock.querySelector('.minutes');
+  const secondsSpan = clock.querySelector('.seconds');
+
+  function updateClock() {
+    const t = getTimeRemaining(endtime);
+
+    daysSpan.innerHTML = t.days;
+    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+    if (t.total <= 0) {
+      clearInterval(timeinterval);
+    }
+  }
+
+  updateClock();
+  const timeinterval = setInterval(updateClock, 1000);
+}
+
+const deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
+initializeClock('clockdiv', deadline);
+</script>
+
+</script>
+<!-- newe timer script end -->
+<!-- header script end -->
+</html>

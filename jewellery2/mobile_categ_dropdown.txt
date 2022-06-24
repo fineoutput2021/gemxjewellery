@@ -1,0 +1,15 @@
+//mobile category dropdown code 
+
+<li class="cat_ul">categories <i class="fa fa-chevron-right" style="position: absolute;right: 0;top: 11px;"></i>
+<ul>
+<li>sub categories 1 <i class="fa fa-chevron-right" style="position: absolute;right: 0;top: 11px;"></i>
+</li>
+<li>sub categories 2 <i class="fa fa-chevron-right" style="position: absolute;right: 0;top: 11px;"></i>
+</li>
+<li>sub categories 3 <i class="fa fa-chevron-right" style="position: absolute;right: 0;top: 11px;"></i>
+</li>
+<li>sub categories 4 <i class="fa fa-chevron-right" style="position: absolute;right: 0;top: 11px;"></i>
+</li>
+</ul>
+
+</li>
